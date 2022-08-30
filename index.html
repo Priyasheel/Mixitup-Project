@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixitup</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <button type="button" class="control" data-filter="all">All</button>
+            <button type="button" class="control" data-filter=".headphone">Headphone</button>
+            <button type="button" class="control" data-filter=".mobile">Mobile</button>
+            <button type="button" class="control" data-filter=".tab">Tab</button>
+            <button type="button" class="control" data-filter=".telephon">Telephon</button>
+            <button type="button" class="control" data-filter=".laptop">Laptop</button>
+
+        </div>
+
+        <div class="image-group" id="img">
+            <img class="mix headphone" src="img/1.png" alt="" width="200">
+            <img class="mix mobile" src="img/2.jfif" alt="" width="200">
+            <img class="mix tab" src="img/3.jpg" alt="" width="200">
+            <img class="mix telephon" src="img/4.jpg" alt="" width="200">
+            <img class="mix laptop" src="img/5.jfif" alt="" width="200">
+            <img class="mix headphone" src="img/111 (4).jfif" alt="" width="200">
+            <img class="mix mobile" src="img/22.jpg" alt="" width="200">
+            <img class="mix tab" src="img/33.jfif" alt="" width="200">
+            <img class="mix telephon" src="img/44.jfif" alt="" width="200">
+            <img class="mix laptop" src="img/55.jfif" alt="" width="200">
+            <img class="mix headphone" src="img/33.jfif" alt="" width=200">
+            <img class="mix mobile" src="img/333.jfif" alt="" width="200">
+            <img class="mix tab" src="img/222.jfif" alt="" width="200">
+            <img class="mix telephon" src="img/444.jfif" alt="" width="200">
+            <img class="mix laptop" src="img/111 (9).jfif" alt="" width="200">
+            <img class="mix headphone" src="img/555.jfif." alt="" width="200">
+            <img class="mix mobile" src="img/5555.jfif" alt="" width="200">
+            <img class="mix tab" src="img/3333.jfif" alt="" width="200">
+            <img class="mix telephon" src="img/4444.jfif" alt="" width="200">
+            <img class="mix laptop" src="img/2222.webp" alt="" width="200">
+            
+        </div>
+    </div>
+
+    <script src="script/mixitup.min.js"></script>
+
+    <script>
+      var amir = document.getElementById('img')
+      var mixer = mixitup(amir);
+    </script>
+
+
+</body>
+</html>
